@@ -1,0 +1,39 @@
+# Sensitive credentials
+include/credentials.h
+*.local.json
+appsettings.local.json
+
+# Build artifacts
+bin/
+obj/
+.pio/
+dist/
+node_modules/
+.vscode/
+
+# IDE
+.vs/
+*.swp
+*.swo
+*~
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
